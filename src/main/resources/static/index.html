@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatroom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="chatroom">
+    <h1>💬Chatroom </h1>
+    <div id="messages"></div>
+    <div class="input-area">
+        <input type="text" id="message-input" placeholder="Escreve uma mensagem...">
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1.5.1/dist/sockjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
