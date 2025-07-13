@@ -12,7 +12,7 @@
 
 ## 🚀 Technologies Used
 
-* ☕ Java 17
+* ☕ Java JDK 17
 * 🌱 Spring Boot 3.5.3
 * 🔄 WebSocket (STOMP protocol)
 * 🧩 SockJS (WebSocket fallback)
