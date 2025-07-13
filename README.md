@@ -40,7 +40,8 @@ chatapp/
 │       ├── java/com/jose/chatapp/
 │       │   ├── config/WebSocketConfig.java       # WebSocket configuration
 │       │   ├── controller/ChatController.java    # Message handler
-│       │   └── model/ChatMessage.java            # Message model
+│       │   ├── model/ChatMessage.java            # Message model
+|       |   └── ChatappApplication.java           # main()
 │       └── resources/static/
 │           ├── index.html                        # Web UI
 │           ├── app.js                            # Front-end logic
